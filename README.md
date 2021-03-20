@@ -9,6 +9,7 @@ On the Raspberry Pi the following command must be executed at start-up:
 
 rigctld -m 1022 -r /dev/ttyxxx -s speed &
 
+As HAMLIB has a generic approach if the model number is changed the basic functions (frequency read and set, mode read and set, SPLIT command, PTT) will be fullfilled and displayed in the FT857 look and feel.
 
 Thank you to OK1ZIA and OK1HRA to give me the hints how to use the HAMLIB library in a php code. http://ok1zia.nagano.cz/wiki/index.php?title=WebRig&mobileaction=toggle_view_mobile#How_to_install
 
